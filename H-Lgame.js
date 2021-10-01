@@ -10,6 +10,7 @@
 function GameStart(b) {
   const a = Math.floor(Math.random() * 10) + 1;
 
+
   if (b >= 0 && b <= 10) {
     if (b > a) {
       console.log(`Too high | the number ${a}`);
@@ -17,10 +18,13 @@ function GameStart(b) {
     else if (b < a) {
       console.log(`Too Low | the number ${a}`);
     }
-    else{
+    else if(b = a){
       console.log(`WIN`);
     }
+  }else{
+      console.log(`ERROR x_x`);
   }
 }
 
 GameStart(7);
+GameStart(14);
