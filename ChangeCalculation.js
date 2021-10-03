@@ -46,5 +46,5 @@ function calculation(price, pay) {
   return change;
 }
 
-//console.log(calculation(700, 7000));
+console.log(calculation(700, 7000));
 console.log(calculation(634, 7984));
